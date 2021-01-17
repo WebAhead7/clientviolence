@@ -7,8 +7,8 @@ const Header = () => {
         <Navbar.Brand href='#home'>
           <img
             src='./img/logo_18.svg'
-            width='30'
-            height='30'
+            width='40'
+            height='40'
             className='d-inline-block align-top'
             alt=''
           />
@@ -16,15 +16,12 @@ const Header = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto'>
-            <Nav.Link href='/signin'>
-              <i className='fas fa-user'></i> Log in
-            </Nav.Link>
             <Nav.Link href='/Aboutus'>
               {' '}
-              <i className='fas fa-info'></i> About us
+              About us <i className='fas fa-info'></i>
             </Nav.Link>
-            <Nav.Link href='/cart'>
-              <i className='fas fa-shopping-cart'></i> Cart
+            <Nav.Link href='/signout'>
+              Log out <i className='fas fa-sign-out-alt'></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

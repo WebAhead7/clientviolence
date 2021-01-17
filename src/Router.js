@@ -6,7 +6,7 @@ import {
   Redirect,
   NavLink,
 } from 'react-router-dom'
-import StartTest from './pages/StartTest'
+import Test from './pages/Test'
 import Home from './pages/Home'
 import DevComponent from './components/Devcomponent'
 
@@ -19,8 +19,8 @@ const Router = () => {
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path='/starttest'>
-            <StartTest />
+          <Route exact path='/test'>
+            <Test />
           </Route>
           <Route exact path='/dev'>
             <DevComponent />
