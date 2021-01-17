@@ -16,6 +16,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto'>
+            <Nav.Link>
+              Hello User <i className='fas fa-user'></i>
+            </Nav.Link>
             <Nav.Link href='/Aboutus'>
               {' '}
               About us <i className='fas fa-info'></i>

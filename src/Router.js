@@ -15,7 +15,6 @@ const Router = () => {
     <BrowserRouter>
       <Switch>
         <div>
-          <h1>Hello Router</h1>
           <Route exact path='/'>
             <Home />
           </Route>
